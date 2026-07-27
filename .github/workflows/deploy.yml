@@ -24,7 +24,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir -p _site
-          unzip -q gastroedu-pages-20260727-1535.zip -d _site
+          unzip -q gastroedu-pages-posix-20260727.zip -d _site
           test -f _site/index.html
       - name: Configure Pages
         uses: actions/configure-pages@v5
